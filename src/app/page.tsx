@@ -35,14 +35,16 @@ export default function Home() {
             </button>
           </div>
           <h1 className='font-semibold text-3xl mt-10'>Bom dia</h1>
-          <div className='grid grid-cols-3 gap-6'>
-            <div className='bg-white/10'> PlayList</div>
-            <div className='bg-white/10'> PlayList</div>
-            <div className='bg-white/10'> PlayList</div>
-            <div className='bg-white/10'> PlayList</div>
-            <div className='bg-white/10'> PlayList</div>
-            <div className='bg-white/10'> PlayList</div>
+
+          <div className='grid grid-cols-3 gap-6 mt-6'>
+            <a className='bg-white/10 overflow-hidden rounded gap-4 flex items-center hover:bg-white/20'><img src="album.jpg" alt="Capa do Album " width={50} height={50} /><strong>Playlist</strong></a>
+            <a className='bg-white/10 overflow-hidden rounded gap-4 flex items-center hover:bg-white/20'><img src="album.jpg" alt="Capa do Album " width={50} height={50} /><strong>Playlist</strong></a>
+            <a className='bg-white/10 overflow-hidden rounded gap-4 flex items-center hover:bg-white/20'><img src="album.jpg" alt="Capa do Album " width={50} height={50} /><strong>Playlist</strong></a>
+            <a className='bg-white/10 overflow-hidden rounded gap-4 flex items-center hover:bg-white/20'><img src="album.jpg" alt="Capa do Album " width={50} height={50} /><strong>Playlist</strong></a>
+            <a className='bg-white/10 overflow-hidden rounded gap-4 flex items-center hover:bg-white/20'><img src="album.jpg" alt="Capa do Album " width={50} height={50} /><strong>Playlist</strong></a>
+            <a className='bg-white/10 overflow-hidden rounded gap-4 flex items-center hover:bg-white/20'><img src="album.jpg" alt="Capa do Album " width={50} height={50} /><strong>Playlist</strong></a>
           </div>
+          <h1 className='font-semibold text-3lg mt-10'>Os maiores hits do momento</h1>
         </main>
       </div>
       <footer className="bg-zinc-800 border-t border-zinc-700 p-6">
